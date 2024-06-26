@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=plein@400,500,700,900,1&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=khand@300,400,500,600,700,1&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=erode@400&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=hind@300,400,500,600,700,1&display=swap" rel="stylesheet">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="fixed">
+      <!-- HEADER SECTION -->
+      <header>
+        <nav>
+          <div class="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </div>
+        </nav>
+      </header>
+
+      <!-- HERO SECTION -->
+      <section id="hero">
+        <div class="title">
+          <p>Naseef Mashood<span>_</span></p>
+          <h1>Web Developer</h1>
+        </div>
+        <a href="#about" class="btn">About Me</a>
+      </section>
+    </div>
+
+    <div class="content">
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="info">
+            <p>Hello! I'm <span>Mohammed Naseef Bin Mashood.</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quam suscipit incidunt architecto quae similique sunt voluptatem ab debitis distinctio eligendi fuga harum doloribus fugiat, neque at ex ullam? Assumenda commodi, laboriosam aut distinctio accusantium molestias modi est explicabo officia.</p>
+            
+          </div>
+          <div class="profile">
+            <img src="/profile-photo.png" alt="">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- GRAIN FILTER -->
+    <svg>
+      <filter id="grainy">
+        <feTurbulence 
+          type="turbulence"
+          baseFrequency="0.65"
+        />
+      </filter>
+    </svg>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
