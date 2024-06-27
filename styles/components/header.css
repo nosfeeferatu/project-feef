@@ -1,0 +1,35 @@
+header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+nav {
+    background: transparent;
+    display: flex;
+    padding: 2rem 3rem;
+    justify-content: center;
+    filter: blur(0.03rem);
+}
+
+nav .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 2rem;
+}
+
+nav a {
+    text-shadow: 0 0 5px var(--primary-clr);
+    color: var(--primary-clr);
+    text-decoration: none;
+    font-family: 'Khand', sans-serif;
+    font-size: 1.1rem;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    text-shadow: 0 0 15px var(--primary-clr);
+}

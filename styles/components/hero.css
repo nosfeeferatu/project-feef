@@ -1,0 +1,63 @@
+#hero {
+    background: linear-gradient(120deg, var(--sky-blue1) 50%, var(--sky-blue2));
+    position: relative;
+    display: grid;
+    place-content: center;
+    height: 100dvh;
+    overflow: hidden;
+    justify-items: center;
+}
+  
+#hero::before {
+    position: absolute;
+    background-color: var(--light-clr);
+    opacity: 40%;
+    filter: url(#grainy);
+    content: '';
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    animation: scaling 8s ease-in-out infinite alternate;
+}
+  
+@keyframes scaling {
+    0% {  scale: 1;  }
+    100% {  scale: 1.1;  }
+}
+  
+  
+#hero .title {
+    color: var(--primary-clr);
+    font-family: 'Khand', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 8rem;
+    letter-spacing: -0.3rem;
+    filter: blur(0.04rem);
+    text-shadow: 0 0 6px var(--primary-clr);
+}
+  
+#hero .title p {
+    font-size: 4rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: -1rem;
+    color: var(--light-clr);
+    text-shadow: 0 0 4px var(--light-clr);
+}
+  
+#hero .title span {
+    animation: blinking 0.4s ease-in-out infinite alternate;
+}
+  
+@keyframes blinking {
+    0% {  opacity: 0%;  }
+    100% {  opacity: 100%;  }
+}
+  
+#hero .btn {
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    filter: blur(0.03rem);
+    font-weight: 500;
+}
