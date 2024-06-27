@@ -3,7 +3,7 @@
     gap: 2rem;
 }
   
-.about-content div {
+.about-content .content-item {
     flex: 1;
 }
   
@@ -31,4 +31,14 @@
   
 .profile img {
     width: 60%;
+}
+
+.technologies {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tech-item {
+    display: flex;
+    align-items: center;
 }

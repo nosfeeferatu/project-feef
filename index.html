@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://api.fontshare.com/v2/css?f[]=plein@400,500,700,900,1&display=swap" rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=khand@300,400,500,600,700,1&display=swap" rel="stylesheet">
-    <link href="https://api.fontshare.com/v2/css?f[]=erode@400&display=swap" rel="stylesheet">
-    <link href="https://api.fontshare.com/v2/css?f[]=hind@300,400,500,600,700,1&display=swap" rel="stylesheet">
-    <title>Vite App</title>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <title>Naseef Mashood | Portfolio</title>
   </head>
   <body>
     <div class="fixed">
@@ -38,15 +36,41 @@
       <section id="about">
         <h2>About Me</h2>
         <div class="about-content">
-          <div class="info">
+          <div class="info content-item">
             <p>Hello! I'm <span>Mohammed Naseef Bin Mashood.</span></p>
-            <p>I'm a Full-Stack Developer with a Master's Degree in Computer Science and a year of working experience in the industry.</p>      
+            <p>I'm a Full-Stack Developer with a Master's Degree in Computer Science and a year of working experience in the industry in LAMP and MERN Stack.</p>      
             <p>While I have worked with both front-end and back-end technologies, I find myself veering towards <span>front-end development</span> more. There is an alluring charm to turning a bare webpage into something visually appealing and striking with CSS, and I want to use it to provide seamless user interface and experience.</p>
-            <p>An ever-curious individual with adaptability and a desire to learn anything and everything, I'm currently focusing on mastering frameworks such as React and Next.JS.</p>
+            <p>An ever-curious individual with adaptability and a desire to learn anything and everything, I'm currently focusing on mastering frameworks such as React and Next.js.</p>
             <hr>
             <h3>Technologies</h3>
+            <div class="technologies">
+              <div class="tech-item">
+                <i class="devicon-html5-plain"></i>
+                <p>HTML</p>
+              </div>
+              <div class="tech-item">
+                <i class="devicon-css3-plain"></i>
+                <p>CSS</p>
+              </div>
+              <div class="tech-item">
+                <i class="devicon-tailwindcss-original"></i>
+                <p>TailwindCSS</p>
+              </div>
+              <div class="tech-item">
+                <i class="devicon-javascript-plain"></i>
+                <p>JavaScript</p>
+              </div>
+              <div class="tech-item">
+                <i class="devicon-react-plain"></i>
+                <p>React</p>
+              </div>
+              <div class="tech-item">
+                <i class="devicon-nextjs-plain"></i>
+                <p>Next.js</p>
+              </div> 
+            </div>
           </div>
-          <div class="profile">
+          <div class="profile content-item">
             <img src="/profile-photo.png" alt="">
           </div>
         </div>
@@ -54,7 +78,7 @@
     </div>
 
     <!-- GRAIN FILTER -->
-    <svg>
+    <svg class="grain-filter">
       <filter id="grainy">
         <feTurbulence 
           type="turbulence"
