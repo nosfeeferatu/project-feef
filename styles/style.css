@@ -92,6 +92,6 @@ hr {
   box-shadow: 0 0 30px 5px var(--dark-clr);
 }
 
-.content section {
-  padding: 80px 100px;
+.container {
+  padding: 60px 100px;
 }
