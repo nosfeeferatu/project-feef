@@ -1,5 +1,6 @@
 .project-list {
     display: flex;
+    flex-wrap: wrap;
     margin: 2rem 1rem 0;
     position: relative;
     box-shadow: 0 10px 30px 0px #0c131999;
@@ -16,6 +17,7 @@
 .project-item {
     flex: 1;
     height: 35rem;
+    min-width: 16rem;
     border: 1px solid var(--dark-clr);
     display: flex;
     flex-direction: column;

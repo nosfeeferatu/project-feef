@@ -1,5 +1,6 @@
 .about-content {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
 }
   
@@ -35,6 +36,7 @@
 
 .technologies {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
