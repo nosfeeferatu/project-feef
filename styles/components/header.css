@@ -16,6 +16,8 @@ nav {
 
 nav .menu {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style: none;
     padding: 0;
     gap: 2rem;
@@ -26,10 +28,42 @@ nav a {
     color: var(--primary-clr);
     text-decoration: none;
     font-family: 'Khand', sans-serif;
-    font-size: 1.1rem;
+    font-size: var(--size-xs);
     transition: 0.3s ease-in-out;
 }
 
 nav a:hover {
     text-shadow: 0 0 15px var(--primary-clr);
 }
+
+/* xs */
+@media (min-width: 475px) {
+
+}
+ 
+/* sm */
+@media (min-width: 640px) {
+    nav a {
+        font-size: var(--size-sm);
+    }
+}
+ 
+/* md */
+@media (min-width: 768px) {
+    nav a {
+        font-size: var(--size-base);
+    }
+}
+ 
+/* lg */
+@media (min-width: 1024px) {
+    nav a {
+        /* font-size: var(--size-lg); */
+    }
+}
+ 
+/* xl */
+/* @media (min-width: 1280px) {} */
+ 
+/* 2xl */
+/* @media (min-width: 1536px) {} */
