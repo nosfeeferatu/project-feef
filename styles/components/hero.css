@@ -11,7 +11,7 @@
 #hero::before {
     position: absolute;
     background-color: var(--light-clr);
-    opacity: 40%;
+    opacity: 30%;
     filter: url(#grainy);
     content: '';
     height: 100%;

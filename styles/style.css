@@ -2,7 +2,7 @@
   --sky-blue1: #054062;
   --sky-blue2: #30788c;
   --primary-clr: #FCF011;
-  --dark-clr: #27292b;
+  --dark-clr: #1a1b1c;
   --light-clr: #f0f8ff;
   scrollbar-color: var(--primary-clr) var(--dark-clr);
   scrollbar-width: thin;
@@ -21,6 +21,7 @@
 body {
   line-height: 1;
   color: var(--light-clr);
+  background: linear-gradient(120deg, var(--sky-blue1) 50%, var(--sky-blue2));
 }
 
 img {
@@ -89,7 +90,7 @@ hr {
   position: relative;
   z-index: 5;
   border-radius: 30px 30px 0 0;
-  box-shadow: 0 0 30px 5px var(--dark-clr);
+  box-shadow: 0 0px 20px 8px #151617;
 }
 
 .container {

@@ -28,6 +28,11 @@
 .project-item:hover {
     background-color: #0c1319b4;
     filter: grayscale(0);
+    opacity: 1;
+}
+
+.project-list:has(.project-item:hover) .project-item:not(.project-item:hover) {
+    opacity: 0.3;
 }
 
 .project-list:has(.project-item:hover)::after {
