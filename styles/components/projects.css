@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(120deg,var(--sky-blue1), var(--sky-blue2));
+    background: linear-gradient(120deg, var(--sky-blue1), var(--sky-blue2));
 }
 
 .project-item {
@@ -34,7 +34,7 @@
 }
 
 .project-list:has(.project-item:hover) .project-item:not(.project-item:hover) {
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 .project-list:has(.project-item:hover)::after {
