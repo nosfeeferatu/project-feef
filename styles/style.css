@@ -20,7 +20,7 @@
   --sky-blue1: #08659b;
   --sky-blue2: #1690b2;
   --primary-clr: #FCF011;
-  --dark-clr: #1a1b1c;
+  --dark-clr: #171717;
   --light-clr: #f0f8ff;
 
   --size-xxs: 0.5rem;
@@ -72,16 +72,15 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 2.5rem;
-  text-shadow: 0 0 4px var(--primary-clr);
+  text-shadow: 0 0 2px var(--primary-clr);
   filter: blur(0.02rem);
   font-weight: 600;
 }
 
 h3 {
   margin: 0.5rem;
-  margin-bottom: 0.8rem;
   text-shadow: 0 0 1px var(--primary-clr);
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   filter: blur(0.02rem);
   font-size: 1.5rem;
 }
