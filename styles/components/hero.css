@@ -67,7 +67,6 @@
     text-align: center;
     position: relative;
     z-index: 5;
-    filter: blur(0.03rem);
     font-weight: 500;
 }
 
@@ -115,6 +114,10 @@
     #hero .title p {
         font-size: var(--size-6xl);
         letter-spacing: -0.1rem;
+    }
+
+    #hero .btn {
+        filter: blur(0.03rem);
     }
 }
 
