@@ -7,7 +7,7 @@
     overflow: hidden;
     justify-items: center;
 }
-  
+
 #hero::before {
     position: absolute;
     background-color: var(--light-clr);
@@ -19,13 +19,18 @@
     z-index: 3;
     animation: scaling 8s ease-in-out infinite alternate;
 }
-  
+
 @keyframes scaling {
-    0% {  scale: 1;  }
-    100% {  scale: 1.1;  }
+    0% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 1.1;
+    }
 }
-  
-  
+
+
 #hero .title {
     color: var(--primary-clr);
     font-family: 'Khand', sans-serif;
@@ -33,10 +38,9 @@
     font-weight: 900;
     font-size: 8vw;
     letter-spacing: -0.0rem;
-    filter: blur(0.04rem);
     text-shadow: 0 0 3px var(--primary-clr);
 }
-  
+
 #hero .title p {
     font-size: 8vw;
     margin: 0;
@@ -44,16 +48,21 @@
     color: var(--light-clr);
     text-shadow: 0 0 2px var(--light-clr);
 }
-  
+
 #hero .title span {
     animation: blinking 0.4s ease-in-out infinite alternate;
 }
-  
+
 @keyframes blinking {
-    0% {  opacity: 0%;  }
-    100% {  opacity: 100%;  }
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
-  
+
 #hero .btn {
     text-align: center;
     position: relative;
@@ -73,17 +82,16 @@
         margin-bottom: -0.5rem;
     }
 }
- 
+
 /* sm */
 @media (min-width: 640px) {
     #hero .title {
         font-size: var(--size-6xl);
     }
 
-    #hero .title p {
-    }
+    #hero .title p {}
 }
- 
+
 /* md */
 @media (min-width: 768px) {
     #hero .title {
@@ -95,12 +103,13 @@
         margin-bottom: -1rem;
     }
 }
- 
+
 /* lg */
 @media (min-width: 1024px) {
     #hero .title {
         font-size: var(--size-8xl);
         letter-spacing: -0.2rem;
+        filter: blur(0.04rem);
     }
 
     #hero .title p {
@@ -108,7 +117,7 @@
         letter-spacing: -0.1rem;
     }
 }
- 
+
 /* xl */
 @media (min-width: 1280px) {
     #hero .title {
@@ -121,6 +130,6 @@
         letter-spacing: -0.1rem;
     }
 }
- 
+
 /* 2xl */
 /* @media (min-width: 1536px) {} */
