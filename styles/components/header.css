@@ -3,7 +3,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 5;
+    z-index: 10;
 }
 
 nav {
@@ -11,7 +11,6 @@ nav {
     display: flex;
     padding: 2rem 3rem;
     justify-content: center;
-    filter: blur(0.03rem);
 }
 
 nav .menu {
@@ -37,33 +36,31 @@ nav a:hover {
 }
 
 /* xs */
-@media (min-width: 475px) {
+@media (min-width: 475px) {}
 
-}
- 
 /* sm */
 @media (min-width: 640px) {
     nav a {
         font-size: var(--size-sm);
     }
 }
- 
+
 /* md */
 @media (min-width: 768px) {
     nav a {
         font-size: var(--size-base);
     }
 }
- 
+
 /* lg */
 @media (min-width: 1024px) {
     nav a {
         /* font-size: var(--size-lg); */
     }
 }
- 
+
 /* xl */
 /* @media (min-width: 1280px) {} */
- 
+
 /* 2xl */
 /* @media (min-width: 1536px) {} */
