@@ -99,14 +99,13 @@ hr {
   border-radius: 3px;
   padding: 0.5rem 0.8rem;
   color: var(--dark-clr);
-  box-shadow: 0 0 15px 0px var(--primary-clr);
   font-family: 'Khand', sans-serif;
   transition: 0.3s ease-in-out;
   margin-top: 1rem;
 }
 
 .btn:hover {
-  box-shadow: 0 5px 20px 5px var(--primary-clr);
+  box-shadow: 0 3px 10px 0px #fcf011c4;
   transform: translateY(-0.3rem);
 }
 
