@@ -3,7 +3,7 @@
     position: relative;
     display: grid;
     place-content: center;
-    height: 100vh;
+    height: 95vh;
     overflow: hidden;
     justify-items: center;
 }
