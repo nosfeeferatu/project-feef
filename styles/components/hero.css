@@ -34,6 +34,7 @@
 #hero .title {
     color: var(--primary-clr);
     font-family: 'Khand', sans-serif;
+    font-display: swap;
     text-transform: uppercase;
     z-index: 5;
     font-weight: 900;
