@@ -1,12 +1,11 @@
 #hero {
     background: linear-gradient(120deg, var(--sky-blue1) 50%, var(--sky-blue2));
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-content: center;
     height: 96vh;
     overflow: hidden;
+    justify-items: center;
 }
 
 #hero::before {
