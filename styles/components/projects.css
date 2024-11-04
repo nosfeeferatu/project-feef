@@ -52,7 +52,7 @@
 }
 
 .project-1 {
-    background: url(/project-1.png);
+    background: url(/project-1_card.png);
     background-size: cover;
     background-position: center;
 }
@@ -64,11 +64,11 @@
 .project-list:has(.project-1:hover) {
     background: url(/project-1.png);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 }
 
 .project-2 {
-    background: url(/project-2.png);
+    background: url(/project-2_card.png);
     background-size: cover;
     background-position: center;
 }
@@ -80,7 +80,7 @@
 .project-list:has(.project-2:hover) {
     background: url(/project-2.png);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 }
 
 .project-3 {
@@ -96,7 +96,7 @@
 .project-list:has(.project-3:hover) {
     background: url(/project-3.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 }
 
 .project-4 {
@@ -112,5 +112,5 @@
 .project-list:has(.project-4:hover) {
     background: url(/project-4.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 }
