@@ -31,19 +31,24 @@
 }
 
 .project-item:hover {
-    background-color: #0c1319b4 !important;
+    background-color: #0a1016c4 !important;
     filter: grayscale(0);
     opacity: 1;
+    position: relative;
 }
 
 .project-item:hover p {
     display: block;
+    z-index: 9;
 }
 
-.project-list:has(.project-item:hover) .project-item:not(.project-item:hover) {
-    filter: grayscale(100);
-    opacity: 0.1;
+.project-item:hover h3, .project-item:hover a {
+    z-index: 9;
 }
+
+
+
+
 
 .project-list:has(.project-item:hover)::after {
     opacity: 0;
@@ -57,15 +62,13 @@
     background-position: center;
 }
 
-.project-list:hover .project-1 {
-    background: none;
-}
-
-.project-list:has(.project-1:hover) {
+.project-1:hover {
     background: url(/project-1.png);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
 }
+
+
 
 .project-2 {
     background: url(/project-2_card.png);
@@ -73,15 +76,13 @@
     background-position: center;
 }
 
-.project-list:hover .project-2 {
-    background: none;
-}
-
-.project-list:has(.project-2:hover) {
+.project-2:hover {
     background: url(/project-2.png);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
 }
+
+
 
 .project-3 {
     background: url(/project-3.jpg);
@@ -114,3 +115,59 @@
     background-size: cover;
     background-position: top center;
 }
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {}
+
+@media (max-width: 768px) {
+    .project-item:hover::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #060a0ce2 !important;
+        filter: grayscale(0);
+        opacity: 1;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+    .project-list:has(.project-item:hover) .project-item:not(.project-item:hover) {
+        filter: grayscale(100);
+        opacity: 0.1;
+    }
+
+    .project-list:hover .project-1 {
+        background: none;
+    }
+
+    .project-list:has(.project-1:hover) {
+        background: url(/project-1.png);
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .project-list:hover .project-2 {
+        background: none;
+    }
+
+    .project-list:has(.project-2:hover) {
+        background: url(/project-2.png);
+        background-size: cover;
+        background-position: top center;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
