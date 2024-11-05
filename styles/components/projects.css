@@ -1,7 +1,7 @@
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem 1rem 0;
+    margin: 2rem 1rem 3rem;
     position: relative;
     box-shadow: 0 10px 30px 0px #0c131999;
 }
@@ -42,12 +42,22 @@
     z-index: 9;
 }
 
+.project-item h3 {
+    z-index: 30;
+}
+
+.project-item::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 32px;
+    background: linear-gradient(0deg, #060a0ce2, transparent) !important;
+}
+
 .project-item:hover h3, .project-item:hover a {
     z-index: 9;
 }
-
-
-
 
 
 .project-list:has(.project-item:hover)::after {
@@ -142,7 +152,7 @@
 
     .project-list:has(.project-item:hover) .project-item:not(.project-item:hover) {
         filter: grayscale(100);
-        opacity: 0.1;
+        opacity: 0.2;
     }
 
     .project-list:hover .project-1 {

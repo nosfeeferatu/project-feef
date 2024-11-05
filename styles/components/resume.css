@@ -1,0 +1,57 @@
+#resume {
+    background: linear-gradient(120deg, var(--sky-blue1) 50%, var(--sky-blue2));
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+/* #resume::before {
+    position: absolute;
+    background-color: var(--light-clr);
+    opacity: 30%;
+    filter: url(#grainy);
+    content: '';
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    animation: scaling 8s ease-in-out infinite alternate;
+} */
+
+
+
+#resume .container {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#resume h2 {
+    color: var(--light-clr)
+}
+
+#resume .btn {
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    font-weight: 500;
+    box-shadow: 0 0 10px 0px var(--primary-clr);
+}
+
+#resume .btn:hover {
+    box-shadow: 0 3px 15px 3px #fcf011c4, 0 3px 15px 0px #fcf01159;
+}
+
+/* sm */
+@media (min-width: 475px) {
+    #resume br {
+        display: none;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    #resume br {
+        display: block;
+    }
+}
