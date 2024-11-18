@@ -28,7 +28,7 @@
     height: 100%;
     width: 100%;
     inset: 0;
-    background: linear-gradient(transparent 30%, var(--dark-clr));
+    background: linear-gradient(transparent 30%, var(--dark-clr) 80%, var(--dark-clr));
 }
 
 .profile img {
