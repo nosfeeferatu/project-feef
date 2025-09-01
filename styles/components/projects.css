@@ -95,7 +95,7 @@
 
 
 .project-3 {
-    background: url(/project-3.jpg);
+    background: url(/project-3_card.png);
     background-size: cover;
     background-position: center;
 }
@@ -105,13 +105,13 @@
 }
 
 .project-list:has(.project-3:hover) {
-    background: url(/project-3.jpg);
+    background: url(/project-3.png);
     background-size: cover;
     background-position: top center;
 }
 
 .project-4 {
-    background: url(/project-4.jpg);
+    background: url(/project-4_card.png);
     background-size: cover;
     background-position: center;
 }
@@ -121,7 +121,7 @@
 }
 
 .project-list:has(.project-4:hover) {
-    background: url(/project-4.jpg);
+    background: url(/project-4.png);
     background-size: cover;
     background-position: top center;
 }
